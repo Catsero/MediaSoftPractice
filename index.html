@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/svg+xml" href="img/logo/logo.svg">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Home</title>
+    <script src="js/drop-down.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content">
+            <a class="header__link" href="/">
+                <img class="header__icon" src="img/logo/logo.svg">
+            </a>
+
+            <button class="header__burger-button">
+                <img class="header__icon" src="img/icons/burger_menu_control.svg">
+            </button>
+        </div>
+    </header>
+
+    <div class="popup-menu" style="display: none;">
+        <div class="popup-menu__grey-overlay"></div>
+        <div class="popup-menu__content">
+            <button class="button-close" >
+                <img src="img/icons/close.svg" alt="">
+            </button>
+            <nav class="popup-menu__navigation">      
+                <div class="navigation-section colapsed">
+                    <div class="popup-about">
+                        <b>About Us</b>
+                        <img class="arrow_up" src="img/icons/arrow2.svg" alt="">
+                    </div>
+                    <div class="popup-about__scroll">
+                        <div class="popup-infor">About</div>
+                        <div class="popup-infor">What We Do</div>
+                        <div class="popup-infor">Project</div>
+                        <div class="popup-infor">How It Work With Us</div>
+                    </div>
+                </div>
+                <div class="navigation-section colapsed">        
+                    <div class="popup-about follow-navig">
+                        <b>Follow Us</b>
+                        <img class="arrow_up" src="img/icons/arrow2.svg" alt="">
+                    </div>
+                    <div class="popup-about__scroll">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <main class="main">
+        <section class="home-page-hero">
+            <div class="home-page-hero__body">
+                <div class="home-page-hero__text">
+                    <h1 class="home-page-hero__title">New Automation Tool for Your Home</h1>
+                    <div class="home-page-hero__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices
+                        ut mauris tellus at. Posuere sollicitudin odio tellus elit.
+                    </div>
+                    <button class="blue_button home-page-hero__see-projects-button">See Our Project</button>
+                </div>
+                <img class="home-page-hero__illustration" src="img/illustration.svg" alt="Иллюстрация">
+            </div>
+        </section>
+
+        <section id="can-help" class="can-help">
+            <div class="can-help__body">
+                <h2 class="can-help__header">
+                    What we do to help our client grow in digital era,
+                </h2>
+                <div class="can-help__capabilities">
+                    <div class="can-help-capability">
+                        <div class="can-help-capability__body">
+                            <div class="can-help-capability__image_container">
+                                <img class="can-help-capability__image can-help-capability__image_internet"
+                                    src="img/capabilities/2.svg">
+                            </div>
+                            <h3 class="can-help-capability__header">
+                                Make Your business To Be Better Famous In Internet
+                            </h3>
+                            <div class="can-help-capability__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <a class="can-help-capability__learn-more" href="#">
+                                <span class="can-help-capability__learn-more-text">Learn more</span>
+                                <img class="can-help-capability__learn-more-arrow" src="img/icons/arrow.svg">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="can-help-capability">
+                        <div class="can-help-capability__body">
+                            <div class="can-help-capability__image_container">
+                                <img class="can-help-capability__image can-help-capability__image_home"
+                                    src="img/capabilities/1.svg">
+                            </div>
+                            <h3 class="can-help-capability__header">
+                                Bring Technology To Your Comfrotable Home
+                            </h3>
+                            <div class="can-help-capability__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <a class="can-help-capability__learn-more" href="#">
+                                <span class="can-help-capability__learn-more-text">Learn more</span>
+                                <img class="can-help-capability__learn-more-arrow" src="img/icons/arrow.svg">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="can-help-capability">
+                        <div class="can-help-capability__body">
+                            <div class="can-help-capability__image_container">
+                                <img class="can-help-capability__image can-help-capability__image_your-need"
+                                    src="img/capabilities/3.svg">
+                            </div>
+                            <h3 class="can-help-capability__header">
+                                Build Your Digital Product That Suitable For Your Need
+                            </h3>
+                            <div class="can-help-capability__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <a class="can-help-capability__learn-more" href="#">
+                                <span class="can-help-capability__learn-more-text">Learn more</span>
+                                <img class="can-help-capability__learn-more-arrow" src="img/icons/arrow.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="finished-projects">
+            <div class="finished-projects__header-conteiner">
+                <h2 class="finished-projects__header">
+                    Our&nbsp;Finished Project
+                </h2>
+                <div class="finished-projects__sub-header">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.
+                </div>
+            </div>
+            <div class="finished-projects__projects">
+                <div class="project finished-projects__project">
+                    <div class="project__header_container">
+                        <h3 class="project__header">
+                            Smart Home Installation
+                        </h3>
+                        <div class="project__sub-header">
+                            In Muarakana Housing Estate
+                        </div>
+                    </div>
+
+                    <div class="project__background" aria-hidden="true">
+                        <img class="project__background-image" src="img/project/1.png">
+                        <div class="project__background-gradient"></div>
+                        <img class="project__background-image-overlay" src="img/project/1.1.svg">
+                    </div>
+                </div>
+
+                <div class="project finished-projects__project">
+                    <div class="project__header_container">
+                        <h3 class="project__header">
+                            Sparklite App
+                        </h3>
+                        <div class="project__sub-header">
+                            Marketplace
+                        </div>
+                    </div>
+
+                    <div class="project__background" aria-hidden="true">
+                        <img class="project__background-image" src="img/project/2.png">
+                        <div class="project__background-gradient"></div>
+                    </div>
+                </div>
+
+                <div class="project finished-projects__project">
+                    <div class="project__header_container">
+                        <h3 class="project__header">
+                            Car-Rapetition App
+                        </h3>
+                        <div class="project__sub-header">
+                            Board
+                        </div>
+                    </div>
+
+                    <div class="project__background" aria-hidden="true">
+                        <img class="project__background-image" src="img/project/3.png">
+                        <div class="project__background-gradient"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="client-main">
+        <div class="client-body">
+            <h2 class="client-title">Our&nbsp;Beloved Client</h2>
+            <div class="client-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.
+            </div>
+            <div class="client-client">
+            </div>
+        </div>
+
+        <div class="logo-clients">
+            <div class="logo-client1">
+                LOGO CLIENT 1
+            </div>
+            <div class="logo-client1">
+                LOGO CLIENT 2
+            </div>
+            <div class="logo-client1">
+                LOGO CLIENT 3
+            </div>
+            <div class="logo-client1">
+                LOGO CLIENT 4
+            </div>
+            <div class="logo-client1">
+                LOGO CLIENT 5
+            </div>
+            <div class="logo-client1">
+                LOGO CLIENT 6
+            </div>
+            <div class="logo-client1">
+                LOGO CLIENT 7
+            </div>
+            <div class="more">
+                <div class="more-client">
+                    More Client
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-main">
+            <div class="footer-our__team">
+                <h2 class="our__team-title">
+                    Intersted to woek
+                    with our team?
+                </h2>
+                <div class="our__team-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.
+                </div>
+                <button class="button">Let's Talk</button>
+            </div>
+            <hr class="footer-line">
+            <div class="footer-two__page">
+                <div class="footer-information__afrianska">
+                    <div class="footer-title__afri">
+                        <img src="img/logo/logo2.svg" alt="">
+                        <h3 class="icon-title">
+                            Afrianska
+                        </h3>
+                    </div>
+
+                    <div class="a-text">
+                        <div class="bold"><b>A.</b></div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                    <div class="a-text">
+                        <div class="bold"><b>T.</b></div>+62-812-7313-4321
+                    </div>
+                    <div class="a-text">
+                        <div class="bold"><b>E.</b></div>hello.afrian@gmail.com
+                    </div>
+                </div>
+                <div class="footer-information">
+                    <div class="footer-information__titles">
+                        <b>About Us</b>
+                    </div>
+                    <div class="footer-information__item">About</div>
+                    <div class="footer-information__item">What We Do</div>
+                    <div class="footer-information__item">Project</div>
+                    <div class="footer-information__item">How It Work With Us</div>
+                </div>
+                <div class="footer-information">
+                    <div class="footer-information__titles">
+                        <b>Follow Us</b>
+                    </div>
+                    <div class="footer-information__item">Instagram</div>
+                    <div class="footer-information__item">Facebook</div>
+                    <div class="footer-information__item">What We Do</div>
+                    <div class="footer-information__item">Project</div>
+                    <div class="footer-information__item">How It Work With Us</div>
+                </div>
+
+            </div>
+            <div class="copyright">2019 © Afrianska. All rights reserved.</div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url(button.css);
+
+@import url(blocks/header.css);
+@import url(blocks/index/home_page_hero.css);
+@import url(blocks/index/can_help.css);
+@import url(blocks/index/can_help_capability.css);
+@import url(blocks/index/project.css);
+@import url(blocks/index/finished_projects.css);
+@import url(blocks/index/popup_menu.css);
+@import url(blocks/blog/page-title.css);
+@import url(blocks/blog/all-search.css);
+@import url(blocks/blog/article.css);
+@import url(blocks/blog/popular-articles.css);
+@import url(blocks/index/clients.css);
+@import url(blocks/index/footer.css);
+@import url(blocks/blog/smile-articles.css);
+@import url(blocks/blog/all-articles.css);
+@import url(blocks/contact/send-message.css);
+@import url(blocks/contact/message-sell.css);
+@import url(blocks/contact/about-us.css);
+@import url(blocks/contact/map-script.css);
+body {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+}

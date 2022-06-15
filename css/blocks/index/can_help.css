@@ -1,0 +1,73 @@
+/* .can-help */
+.can-help {
+    margin: auto;
+    padding: 0 10px 0 10px;
+
+    box-sizing: content-box;
+    max-width: 940px;
+}
+
+@media (min-width: 801px) {
+    .can-help {
+        margin-top: 192px;
+    }
+}
+
+@media (max-width : 800px) {
+    .can-help {
+        margin-top: 50px;
+    }
+}
+
+/* .can-help__header */
+.can-help__header {
+    color: #316099;
+    font-size: 35px;
+}
+
+@media (min-width: 801px) {
+    .can-help__header {
+        position: absolute;
+
+        width: 100%;
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 800px) {
+    .can-help__header {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+/* .can-help__capabilities */
+.can-help__capabilities {
+    display: grid;
+    margin: auto;
+}
+
+@media (min-width: 801px) {
+    .can-help__capabilities {
+        max-width: 860px;
+        grid-template-columns: 380px 380px;
+        justify-content: space-between;
+        row-gap: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .can-help__capabilities {
+        justify-content: center;
+        grid-template-columns: auto;
+        row-gap: 50px;
+    }
+}
+
+/* .can-help__first */
+@media (min-width: 801px) {
+    .can-help__capabilities .can-help-capability:first-child {
+        grid-row: span 2;
+        align-self: center;
+    }
+}

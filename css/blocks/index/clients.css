@@ -1,0 +1,122 @@
+/* footer-main */
+.client-main{
+    background-color: rgba(90, 152, 208, 1);
+    margin-top: 192px;
+    border-radius: 200px 0px 0px 0px;
+}
+
+.client-body{
+    max-width: 940px;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    padding-top: 96px;
+    display: flex;
+    justify-content:flex-end;
+    height: 299px;
+}
+
+.client-title{
+    margin-right: 97px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    flex-basis: max-content;
+
+}
+
+.client-text{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6
+}
+
+
+
+/* logo-client */
+.logo-clients {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto auto auto auto;
+   
+    max-width: 940px;
+    height: 256px;
+    margin: auto;
+    
+}
+
+.logo-client1{
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+
+@media (min-width :767px) {
+    .logo-client1:nth-child(4n) {
+        border-right: none;
+    }
+
+    .logo-client1:nth-last-child(-n+4) {
+        border-bottom: none;
+    }
+}
+
+.more{
+    background: rgba(31, 63, 104, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-client{
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #F2F2F2;
+}
+
+@media (max-width : 1024px){
+    .client-main{
+        border-radius: 0px;
+    }
+    .client-body{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .client-title{
+        margin-bottom: 25px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width :768px) {
+    .logo-clients{
+        grid-template-columns: auto auto;
+        
+    }
+
+    .logo-client1:nth-child(2n) {
+        border-right: none;
+    }
+    
+    .logo-client1:nth-last-child(2) {
+        border-bottom: none;
+    }
+}
+
+@media (max-width :375px) {
+    .logo-clients{
+        margin-top: 50px;
+    }
+}

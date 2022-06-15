@@ -1,0 +1,33 @@
+/* .page-title */
+.page-title{
+    width: 100%;
+    height: 250px; 
+    background: url(../../../img/blog/1.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+/* .page-title__body */
+.page-title__body{
+    text-align: center;
+    color: #ffff;
+}
+
+.page-title__header {
+    font-size: 44px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+
+.page-text__subheader{
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.4;  
+    width: 100%;
+    max-width: 780px;
+}

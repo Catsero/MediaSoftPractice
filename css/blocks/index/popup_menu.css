@@ -1,0 +1,112 @@
+/* .popup-menu */
+.popup-menu {
+    display: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    z-index: 100;
+}
+
+/* close-close */
+
+.button-close{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 29px;
+    right: 18px;
+}
+
+.button-close:hover{
+    cursor: pointer;
+}
+
+/* colapsed */
+
+.colapsed .arrow_up {
+    transform: scale(-1);
+}
+
+.colapsed .popup-about__scroll {
+    display: none;
+}
+
+/* .popup-menu__grey-overlay */
+.popup-menu__grey-overlay {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #00000033;
+    opacity: 0;
+
+    transition: all 0.3s;
+}
+
+.popup-menu_enable > .popup-menu__grey-overlay {
+    opacity: 1;
+}
+
+/* .popup-menu__navigation */
+.popup-menu__content {
+    overflow-y: scroll;
+    position: absolute;
+    max-width: 400px;
+    width: 85%;
+    height: 100%;
+    top: 0;
+    right: 0; 
+    transform: translateX(400px);
+    transition: all 0.3s;
+    border-radius: 50px 0 0 0;
+    background: #5A98D0;
+    padding-top: 100px;
+}
+
+.popup-menu_enable > .popup-menu__content {
+    transform: translateX(0);
+}
+/* .popup-about */
+.popup-about{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-left: 50px;
+    display: flex;
+    gap: 15px;
+}
+
+.follow-navig{
+    padding-top: 32px;
+}
+
+.navigation-section{
+
+    margin-bottom: 32px;
+}
+.popup-infor{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+
+.popup-infor:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.popup-about__scroll{
+    padding-left: 50px;
+}

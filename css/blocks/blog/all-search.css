@@ -1,0 +1,39 @@
+/* .all-search */
+
+.all-search{
+    max-width: 940px;
+    width: 100%;
+    background-color: rgba(244, 244, 244, 1);
+    margin-top: 56px;
+    padding: 19px 27px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 56px;
+}
+
+/* all-search__body */
+
+.all-search__body{
+    display: flex;
+   
+    align-items: center;
+}
+
+.all-search__img{
+    width: 17.5px;
+    height: 17.5px;
+    margin-bottom: -2px;
+    
+}
+
+.all-search__input{
+    margin-left: 27.51px;
+    border: none;
+    background-color: rgba(244, 244, 244, 1);
+    font-size: 16px;
+    width: 100%;
+}
+
+.all-search__input:focus{
+    outline: none;
+}

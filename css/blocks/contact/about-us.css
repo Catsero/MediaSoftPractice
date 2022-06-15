@@ -1,0 +1,41 @@
+/* about-us */
+
+.about-us{
+    padding-top: 120px;
+}
+
+.about__contacts:nth-child(2) {
+    padding-top: 71px;
+}
+
+.about__contacts{
+    padding-top: 40px;
+}
+
+.about__title{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+}
+
+.all-contacts{
+    margin-top: 24px;
+}
+
+.us-text{
+    max-width: 299px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+.about-icons{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    gap: 19px;
+    
+}
